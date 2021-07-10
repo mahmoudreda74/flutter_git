@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/********************************************   main bar   *****************************/
+.top{
+    width: 100%;
+    padding:10px;
+    position:fixed;
+    z-index:3;
+    background-color:rgba(0,0,0,0.5);
+}
+.top h2{
+    color:dodgerblue;
+}
+.main{
+    width: 100%;
+    padding:10px;
+    position:fixed;
+    z-index:3;
+}
+.main nav:hover{
+    background-color:black;
+}
+.main nav{
+    width:10%;
+    float:right;
+    margin-top:-340px;
+}
+.main nav:hover{
+    margin-top:-15px;
+    transition:2.5s all;
+}
+.main nav a ,.main nav h2{
+    display:block;
+    text-align:center;
+    font-size:18px;
+    color:#bbb;
+    text-decoration:none;
+    padding:25px;
+}
+.main nav h2{
+    margin-top:105px;
+}
+.main nav a:hover{
+    color:white;
+    background-color:#3B3B3B;
+}
+/*******************************************   main backgroung-imag   **********************************/
+nav+img{
+    position:fixed;
+    width:100%;
+    top:-15%;
+    right:0%;
+    z-index:-1;
+}
+
+/******************************************   section 1   ********************************************/
+.sec1{
+    background-color:rgba(0,0,0,0.5);
+    padding:130px 0px 75px;;
+    text-align:center;
+    width:100%;
+    position:relative;
+}
+.sec1 p{
+    font-size:0.7rem;
+    text-align:center;
+    text-transform:uppercase;
+    color:#bbb;
+    letter-spacing:3px;
+}
+.sec1 p:after{
+    content: '';
+    position: absolute;
+    bottom: 45%;
+    left:32%;
+    width: 35%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.sec1 h2{
+    font-size:2rem;
+    text-align:center;
+    margin-top:50px;
+    font-weight:300;
+    color:white
+}
+/******************************************   section 2   ********************************************/
+.sec2{
+    width:100%;
+    background-color:#f2f2f2;
+    padding:100px;
+}
+.sec2 article{
+background-color:white;
+width:90%;
+margin:auto;
+padding:50px;
+}
+.sec2 article p{
+    color:rgb(165, 165, 165);
+    font-size:1rem;
+    line-height:165%;
+    margin-top:50px;
+}
+.sec2 article p:first-child{
+margin-top:0px;
+letter-spacing:3px;
+text-align:center;
+text-transform:uppercase;
+font-size:0.7rem;
+}
+.sec2 article div{
+    width:100%;
+    position:relative;
+}
+.sec2 article p:first-child:after{
+    content:" ";
+    position:absolute;
+    top:42%;
+    left:30%;
+    background-color:#cecece;
+    width:40%;
+    height:1px;
+}
+.sec2 article h2{
+    font-size:1.75rem;
+    color:black;
+    margin-top:30px;
+    font-weight:300;
+    text-align:center;
+} 
+/********************************************   Section 3  *******************************************/
+.sec3{
+    background-color:black;
+    width:100%;
+    text-align:center;
+    padding:50px;
+    margin:0px;
+}
+.sec3 img{
+    width:32px;
+    height:27px;
+    margin:5px;
+    margin:0px 5px 50px 5px; 
+    background-color:white;
+}
+.sec3 img:hover{
+    width:45px;
+    height:40px;
+    padding:1px;
+    margin-bottom:35px;
+    cursor:pointer;
+}
+.sec3 p{
+    color:white;
+}

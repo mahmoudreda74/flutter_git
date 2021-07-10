@@ -1,0 +1,553 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/********************************************   main bar   *****************************/
+.top{
+    width: 100%;
+    padding:10px;
+    position:fixed;
+    z-index:3;
+    background-color:rgba(0,0,0,0.5);
+}
+.top h2{
+    color:dodgerblue;
+}
+.main{
+    width: 100%;
+    padding:10px;
+    position:fixed;
+    z-index:3;
+}
+.main nav:hover{
+    background-color:black;
+}
+.main nav{
+    width:10%;
+    float:right;
+    margin-top:-340px;
+}
+.main nav:hover{
+    margin-top:-15px;
+    transition:2.5s all;
+}
+.main nav a ,.main nav h2{
+    display:block;
+    text-align:center;
+    font-size:18px;
+    color:#bbb;
+    text-decoration:none;
+    padding:25px;
+}
+.main nav h2{
+    margin-top:105px;
+}
+.main nav a:hover{
+    color:white;
+    background-color:#3B3B3B;
+}
+/*******************************************   main backgroung-imag   **********************************/
+nav+img{
+    position:fixed;
+    width:100%;
+    top:-15%;
+    right:0%;
+    z-index:-1;
+}
+
+/******************************************   section 1   ********************************************/
+.sec1{
+    background-color:rgba(0,0,0,0.5);
+    padding:130px 0px 75px;;
+    text-align:center;
+    width:100%;
+    position:relative;
+}
+.sec1 p{
+    font-size:0.7rem;
+    text-align:center;
+    text-transform:uppercase;
+    color:#bbb;
+    letter-spacing:3px;
+}
+.sec1 p:after{
+    content: '';
+    position: absolute;
+    bottom: 45%;
+    left:32%;
+    width: 35%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.sec1 h2{
+    font-size:2rem;
+    text-align:center;
+    margin-top:50px;
+    font-weight:300;
+    color:white
+}
+/******************************************   section 2   ********************************************/
+.sec2{
+    background-color:white;
+    width:100%;
+    padding:5% 10%;
+}
+.sec2>h1{
+    text-align:center;
+    color:#333;
+    font-weight:300;
+    font-size:2.5rem;
+    margin-bottom:5%;
+}
+.sec2 p{
+    color:#4B4B4B;
+    font-size:1.1rem;
+    line-height:165%;
+}
+.sec2 h1,.sec2 h2,.sec2 h3,.sec2 h4,.sec2 h5,.sec2 h6{
+    margin-bottom:5%;
+    color:#555;
+    font-weight:300
+}
+/******************************************   section 2_1   ********************************************/
+.sec2_1{
+width:547px;
+float:left;
+margin-right:5%
+}
+/******************************************   section 2_1_1  ********************************************/
+.sec2_1_1{
+    width:100%;
+}
+.sec2_1_1 div:first-child h3{
+    font-size:1.5rem;
+}
+.sec2_1_1 hr{
+    margin:7% 0;
+    color:rgb(235, 235, 235);
+}
+.sec2_1_1 div+div{
+    color:#555;
+    line-height:125%;
+    font-weight:300;
+}
+.sec2_1_1 article h2+p,.sec2_1_1 article h3+p,.sec2_1_1 article h4+p{
+color:rgb(180,180,180);
+font-size:1.2rem;
+margin-bottom:4%;
+}
+.sec2_1_1 article h3+p{
+    font-size:1.1rem;   
+}
+.sec2_1_1 article h4+p{
+    font-size:1rem;
+}
+.sec2_1_1 article{
+    margin-bottom:10%;
+}
+/******************************************   section 2_1_2  ********************************************/
+.sec2_1_2 .d1{
+width: 48%;
+line-height: 200%;
+font-size: 1.1rem;
+display: inline-block;
+}
+.sec2_1_2 .d1 h4:last-child{
+    margin:10% 0%;
+}
+.sec2_1_2 .d1 p{
+    font-size:1rem;
+}
+.sec2_1_2 .d1 hr{
+    margin: 5% 0%;
+    color: rgb(235,235,235);
+
+}
+.sec2_1_2 .d1 ul li,.sec2_1_2 .d1+div ol li{
+    color:#4B4B4B;
+}
+.sec2_1_2 .d1+div{
+display: inline-block;
+width: 45%;
+margin-left: 6%;
+font-size: 1rem;
+line-height: 181%;
+}
+.sec2_1_2 .d1+div div h4{
+margin: 3% 1% 0%;
+font-size: 1.3rem;
+}
+.sec2_1_2 .d1+div div img{
+    margin-top:15px;
+    width:30px;
+    margin-right:1%;
+}
+.sec2_1_2 .d1+div div img:hover{
+    border:1px solid #8a4680;;
+    cursor:pointer;
+    width:35px;
+    margin-top:0px;
+    transition: 0.5s all;
+}
+.sec2_1_2 div:last-child h4{
+    margin-top:7%;
+}
+.sec2_1_2 div:last-child dl dt{
+    font-weight:bolder;
+    color:#444;
+}
+.sec2_1_2 div:last-child dl dd{
+    margin:4% 6%;
+    line-height:150%;
+    color:#4B4B4B;
+}
+/******************************************   section 2_1_3  ********************************************/
+.sec2_1_3 div h2{
+    font-weight:300;
+    margin-top:35px;
+}
+.sec2_1_3 div button{
+    height:42px;
+    padding:0px 22px;
+    border:0;
+    margin:0px 15px 25px 0px; 
+}
+.sec2_1_3 .ll{
+    width:118px;
+}
+.sec2_1_3 .mm{
+width:102px;
+}
+.sec2_1_3 .ss{
+width:78px;
+}
+
+
+.sec2_1_3 .pp ,.sec2_2_1 .pp
+{
+background-color:#9b4f90;
+color:white;
+}
+.sec2_1_3 .pp:hover,.sec2_2_1 .pp:hover
+{
+background-color:#B569AA;
+cursor:pointer
+}
+.sec2_1_3 .gg,.sec2_2_1 .gg
+{
+    background-color:#f2f2f2;
+}
+.sec2_1_3 .gg:hover,.sec2_2_1 .gg:hover
+{
+    background-color:#f9f9f9;
+    cursor:pointer
+}
+.sec2_1_3 .ww , .sec2_2_1 .ww
+{
+background-color:white;
+outline:1px solid rgb(220,220,220);
+}
+.sec2_1_3 .ww:hover,.sec2_2_1 .ww:hover
+{
+    background-color:whitesmoke;
+    cursor:pointer
+}
+
+
+.sec2_1_3 div:first-child div button{
+margin-bottom:15px;
+margin-right:25px;
+}
+.sec2_1_3 div:first-child div .aa{
+    margin-left:17px;
+}
+.sec2_1_3 div:last-child h2{
+    text-align:right;
+    font-weight:300
+}
+.sec2_1_3 div:last-child p{
+    font-style:italic;
+    border-left:4px solid rgba(144, 144, 144, 0.25);
+    padding-left:30px;
+}
+
+/******************************************   section 2_1_4  ********************************************/
+
+.sec2_1_4{
+    margin-top:50px;
+}
+.sec2_1_4 article>div{
+    display:table;
+    color:#4B4B4B;
+}
+.sec2_1_4 article div .g{
+background-color:rgb(245,245,245);
+}
+.sec2_1_4 article div>div{
+    display:table-row;
+    border-bottom:1px solid rgb(220,220,220)
+}
+.sec2_1_4 article div div:first-child div{
+    font-weight:bold
+}
+.sec2_1_4 article div div:last-child div{
+    border:0;
+}
+.sec2_1_4 article div div>div{
+    display:table-cell;
+    padding:15px;
+}
+.sec2_1_4 article:last-child{
+    margin-top:20px;
+}
+.sec2_1_4 article:last-child div div div{
+    border:1px solid rgb(220,220,220)
+}
+.sec2_1_4 article:last-child div div:first-child div ,.sec2_1_4 article:last-child div div:last-child div{
+    border:0
+}
+/******************************************   section 2_2  ********************************************/
+.sec2_2{
+width:547px;
+float:right;
+}
+/******************************************   section 2_2_1  ********************************************/
+.sec2_2_1 div button{
+    height:42px;
+    padding:0 22px;
+    margin-bottom:2rem;
+    margin-right:1rem;
+    border:0
+}
+
+.sec2_2_1 div:first-child button{
+widows: 105px;
+}
+.sec2_2_1 .D2 button{
+width:85px;
+}
+.sec2_2_1 .D3 button{
+width:160px;
+}
+.sec2_2_1 .D4 button{
+width:163px;
+}
+.sec2_2_1 .D5{
+    position:relative;
+}
+.sec2_2_1 .D5 img{
+    width:20px;
+    position:absolute;
+    top:10px;
+    cursor:pointer;
+}
+.sec2_2_1 .D5 .img1{
+left:10px;
+}
+.sec2_2_1 .D5 .img2{
+left:128px;
+}
+.sec2_2_1 .D5 .img3{
+    left:248px
+}
+.sec2_2_1 .D5 button{
+width:99px;
+}
+.sec2_2_1 div:last-child div{
+width:114px;
+display:inline-block;
+text-align:center;
+height:42px;
+padding-top:10px;
+}
+.sec2_2_1 div:last-child div:hover{
+    cursor:default;
+}
+.sec2_2_1 div:last-child .lp{
+    background-color:#D4AFD4;
+    color:whitesmoke;
+}
+.sec2_2_1 div:last-child .lg{
+    background-color:#F4F4F4;
+    color:#A5A5A5;
+}
+.sec2_2_1 div:last-child .lw{
+    background-color:#FDFDFD;
+    outline:1px dotted #E9E9E0;
+    color:#A5A5A5;
+}
+/******************************************   section 2_2_2  ********************************************/
+.sec2_2_2{
+    margin-top:35px;
+}
+.sec2_2_2 div input[placeholder="Name"],.sec2_2_2 div input[placeholder="Email"]{
+width: 250px;
+height: 45px;
+padding-left: 10px;
+background-color: #FAFAFA;
+border: none;
+outline: 1px solid #B3B3B3;
+}
+.sec2_2_2 div input[placeholder="Name"]{
+    margin:0 25px 30px 0;
+}
+.sec2_2_2 div input[placeholder="Email"]{
+    margin:0 10px 30px 0;
+}
+.sec2_2_2 div input[placeholder="Name"]:hover,.sec2_2_2 div input[placeholder="Email"]:hover,.sec2_2_2 div select:hover,.sec2_2_2 div:last-child textarea:hover,.sec2_2_2 div:last-child input[type="search"]:hover{
+    border:none;
+    outline:3px dotted #9b4f90;
+}
+.sec2_2_2 div select{
+    width:530px;
+    height:45px;
+    padding-left:10px;
+    font-size:15px;
+    color:#444;
+    font-weight:300;
+    border: none;
+    outline: 1px solid #B3B3B3;
+    background-color: #FAFAFA;
+}
+.sec2_2_2 div [type="radio"]{
+    margin:35px 0;
+}
+
+.sec2_2_2 div [type="radio"]+label{
+margin-right:40px;
+margin-left:15px;
+color:#444;
+font-size:15px;
+}
+.sec2_2_2 div div{
+    display:inline-block;
+    color:#444;
+    font-size:15px;
+    width:35%;
+    margin:0 50px 25px 0;
+    line-height:150%;
+}
+.sec2_2_2 div div input[type="checkbox"],.sec2_2_2 div div:last-child{
+    margin-right:10px;
+}
+.sec2_2_2 div:last-child textarea{
+    width:530px;
+    height:200px;
+    background-color: #FAFAFA;
+    padding:15px;
+    margin-bottom:25px;
+    border: none;
+    outline: 1px solid #B3B3B3;
+}
+.sec2_2_2 div:last-child input[value="SEND MESSAGE"]{
+    margin-right:25px;
+    height:35px;
+    width:150px;
+    background-color:#F0F0F0;
+    border: none;
+    cursor:pointer;
+}
+.sec2_2_2 div:last-child input[type="reset"]{
+    height:35px;
+    width:75px;
+    background-color:#Fff;
+    border: none;
+    outline: 1px solid #B3B3B3;
+    cursor:pointer;
+}
+.sec2_2_2 hr{
+    margin:7% 0;
+    color:rgb(235, 235, 235);
+}
+.sec2_2_2 div:last-child input[type="search"]{
+    padding:20px;
+    height:15px;
+    width:370px;
+    border: none;
+    outline: 1px solid #B3B3B3;
+    background-color: #FAFAFA;
+    margin-bottom:25px;
+}
+.sec2_2_2 div:last-child input[value="SEARCH"]{
+    width:125px;
+    height:42px;
+    border: none;
+    outline: 1px solid #B3B3B3;
+    background-color: #F0F0F0;
+    margin:0 0 25px 45px;
+    cursor:pointer;
+}
+
+/******************************************   section 2_2_3  ********************************************/
+.sec2_2_3{
+    margin-top:15px;
+}
+.sec2_2_3 div img{
+    width:176px;
+    height:88px;
+    margin:1.6px;
+}
+.sec2_2_3 div h4+img{
+    display:inline-block;
+    text-align:center;
+    width:558px;
+    height:279px;
+    margin-bottom:25px;
+}
+.sec2_2_3 article{
+    margin-top:40px;
+}
+.sec2_2_3 article img{
+    width:222px;
+    height:111px;
+}
+.sec2_2_3 article h3+img{
+    float:left;
+    margin:0 25px 15px 0;
+}
+.sec2_2_3 article:last-child{
+    margin:50px 0 35px;
+}
+.sec2_2_3 article:last-child img{
+    float:right;
+    margin:0 0 15px 15px;
+}
+/******************************************   section 2_2_4  ********************************************/
+.sec2_2_4 article:last-child{
+    margin-top:35px
+}
+.sec2_2_4 article:last-child p{
+    outline: 1px solid #B3B3B3;
+    background-color: #FAFAFA;
+}
+/*****************************************   Clear   ****************************************/
+.clear{
+    clear: both;
+}
+/********************************************   Section 3  *******************************************/
+.sec3{
+    background-color:black;
+    width:100%;
+    text-align:center;
+    padding:50px;
+}
+.sec3 img{
+    width:32px;
+    height:27px;
+    margin:5px;
+    margin:0px 5px 50px 5px; 
+    background-color:white;
+}
+.sec3 img:hover{
+    width:45px;
+    height:40px;
+    padding:1px;
+    margin-bottom:35px;
+    cursor:pointer;
+}
+.sec3 p{
+    color:white;
+}
